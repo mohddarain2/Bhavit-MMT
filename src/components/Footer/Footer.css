@@ -1,0 +1,96 @@
+/* .FooterAll{
+    border: 1px solid black;
+    padding-top: 20px;
+    margin-top: 20px;
+    background-color: black;
+    height: 187px;
+    
+
+}
+.iconFooter{
+    display: flex;
+    
+    justify-content: space-evenly;
+    
+}
+
+.img {
+    display: flex;
+    justify-content: flex-end;
+    height: 4vh;
+    
+}
+
+.img img{
+    padding: 5px;
+    border-radius: 20px;
+    margin-right: 5px;
+    
+}
+
+.copyRight span{
+    color: white;
+    font-size: 18px;
+    height: 15px;
+    text-align: center;
+    background-color: yellow;
+    
+}
+.USA{
+    font-size: 20px;
+} */
+
+.FooterAll{
+    /* display: flex;
+    justify-content: center; */
+    
+    border: 1px solid black;
+    padding-top: 20px;
+    margin-top: 20px;
+    background-color: black;
+    height: 187px;
+    /* left: 122px;
+     */
+}
+
+.img img{
+    /* padding-left: 400px; */
+    /* left :1200px; */
+    /* background-color: red; */
+    height: 6vh;
+    padding: 5px;
+
+}
+
+.img{
+    /* padding-left: 85%; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    /* margin: 10px; */
+    
+}
+
+.img a{
+    /* padding-left: 400px; */
+    /* left :1200px; */
+    /* background-color: red; */
+    height: 6vh;
+    padding: 5px;
+}
+
+
+.copyRight span{
+    display: flex;
+    justify-content: center;
+
+}
+
+h5{
+    /* display: inline; */
+    padding-left: 48%;
+    /* background-color: blue; */
+    height: 4px;
+    color: aliceblue;
+}

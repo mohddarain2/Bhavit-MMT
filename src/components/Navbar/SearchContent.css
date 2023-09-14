@@ -1,0 +1,166 @@
+.SearchContentContainer{
+    background-color: rgb(19,65,117);
+    padding: 70px;
+    position: relative;
+    /* display: flex; */
+
+    /* width: 100%; */
+    /* new changes */
+}
+
+
+.too{
+    /* background-color: red; */
+    /* border: 1px solid black;
+    height:35px;
+    width:160px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    */
+}
+
+
+
+
+.BIDF{
+    position: absolute;
+    /* padding-left: -50px; */
+    
+    font-size: 30px;
+    top: 80px;
+    left: 33%;
+    color: black;
+}
+
+.BIDFc{
+    background-color: brown;
+    /* margin-left: 20%; */
+    /* margin-top: 5%; */
+    left: 200px;
+}
+
+.SearchContentSmall_container{
+    border-radius: 30px;
+    padding: 80px;
+    background-color: white;
+    box-shadow: 5px 10px 3px rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: center; */
+    flex-wrap:wrap;
+    
+}
+.label_from{
+    /* margin-left: 50px; */
+    font-size:17px;
+    /* position: absolute; */
+    /* margin-left: -705px; */
+    
+}
+
+.label_to{
+    /* margin-left: 50px; */
+    font-size:17px;
+    /* position: absolute; */
+    /* margin-left: -343px; */
+}
+.SearchContentSmall_container h1{
+    /* background-color: black;
+    margin-top: -30px; */
+    /* margin-left: 90px; */
+}
+
+.fromto{
+    background-color: red;
+    margin-top: 90px;
+}
+
+.labels{
+    margin-left: 7px;
+    font-size: 17px;
+    color: rgb(14, 13, 13);
+}
+.All{
+    border: 1px solid black;
+    width: 160px;
+    height: 35px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 9px;
+    margin-top:7px;
+    color: rgb(131, 128, 128);
+    cursor: pointer;
+    /* display: flex;
+    align-items: center; */
+}
+.All:hover{
+   background-color: rgb(14, 13, 13);
+   color: white;
+   transition: all .8s;
+}
+.btnSearch{
+    position: absolute;
+    top: 272px;
+    left: 43%;
+
+}
+.btnSearch button{
+    width: 170px;
+    letter-spacing: 8px;
+    font-size: 18px;
+    background-color: rgb(13,110,253);
+    color: white;
+    border-radius: 10px;
+    padding: 6px;
+    cursor: pointer;
+}
+.btnSearch button:hover{
+    background-color: rgb(19,65,117);
+}
+
+
+
+@media only screen and (max-width: 847px) {
+    
+    .BIDF{
+       
+        /* background-color: aqua; */
+        text-overflow: inherit;
+        left: 24%;
+        width: 55%;
+        font-size: 23px;
+    }
+
+    .btnSearch{
+        position: absolute;
+        top: 420px;
+        left: 28%;
+    
+    }
+  }
+
+  @media only screen and (max-width: 963px) {
+    
+    /* .BIDF{
+       
+        
+        text-overflow: inherit;
+        left: 24%;
+        width: 55%;
+        font-size: 23px;
+    } */
+
+    .btnSearch{
+        /* position: absolute;
+        top: 420px;
+        left: 28%; */
+        background-color: blue;
+        /* position: absolute; */
+        margin-bottom: 50px;
+
+    
+    }
+  }
